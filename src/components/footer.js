@@ -15,17 +15,17 @@ const Footer = () => {
               <img src={footerLogo} className='img-fluid' alt='footer-img' />
             </div>
             <div className='footer-icons d-flex justify-content-center my-2'>
-              <a href=''>
+              <a href='#'>
                 <img src={globe} className='img-fluid px-2' alt='globe-icon' />
               </a>
-              <a href=''>
+              <a href='#'>
                 <img
                   src={twitter}
                   className='img-fluid px-2'
                   alt='twitter-icon'
                 />
               </a>
-              <a href=''>
+              <a href='#'>
                 <img
                   src={instagram}
                   className='img-fluid px-2'
