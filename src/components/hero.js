@@ -22,8 +22,9 @@ const HeroArea = () => {
               <div className='row row-col-1'>
                 <div className='col-sm-12 mt-4 pt-4 d-none d-md-block'>
                   <div className='p-1'>
-                    <h1>
-                      Become a true <span>SUPERFAN</span>
+                    <h1 className='text-secondary fw-bold'>
+                      Become a true{" "}
+                      <span className='text-primary'>SUPERFAN</span>
                     </h1>
                   </div>
                   <p className='p-1'>
@@ -43,11 +44,12 @@ const HeroArea = () => {
                           <i class='fa fa-search'></i>
                         </button>
                       </span> */}
+
                       <input
                         type='search'
                         class='form-control'
                         id='exampleFormControlInput1'
-                        placeholder='Search your favourite creator '
+                        placeholder='Search your favourite creator here'
                       />
                     </div>
                   </div>
@@ -55,7 +57,7 @@ const HeroArea = () => {
                 <div className='button col-sm-12 d-flex d-md-block justify-item-center'>
                   <button
                     type='button'
-                    class='btn btn-primary rounded-pill px-3 mt-1 pt-1 pb-2 '
+                    class='btn btn-primary rounded-pill px-3 mt-1 pt-1 pb-2 text-light fw-bold'
                   >
                     View Tweets From Home
                   </button>

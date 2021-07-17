@@ -1,1 +1,8 @@
+$primary: #2aa3ef;
+$secondary: #1157a0;
+$font-stack: Helvetica, sans-serif;
+
+.grad {
+  background-image: linear-gradient(to right, #1f7fe5, #2aa3ef);
+}
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

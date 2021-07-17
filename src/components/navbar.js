@@ -29,14 +29,14 @@ const Navbar = () => {
             <ul class='navbar-nav'>
               <li class='nav-item my-2'>
                 <a class='nav-link active' aria-current='page' href='#'>
-                  <strong>Sign In</strong>
+                  <strong className='text-primary fs-6'>Sign In</strong>
                 </a>
               </li>
               <li class='nav-item'>
                 <a class='nav-link' href='#'>
                   <button
                     type='button'
-                    class='btn btn-primary rounded-pill mx-4'
+                    class='btn btn-primary rounded-pill mx-4 fw-bold text-light grad shadow'
                     style={{ padding: "0.5em 4em 0.7em 4em" }}
                   >
                     Home

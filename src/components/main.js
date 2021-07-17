@@ -5,8 +5,8 @@ const MainSection = () => {
   return (
     <div className='mt-4 pt-4'>
       <div className='d-flex justify-content-center py-4 my-4'>
-        <h1>
-          <span>Creators</span> are powerful
+        <h1 className='fw-bold text-secondary'>
+          <span className='text-primary'>Creators</span> are powerful
         </h1>
       </div>
       <div className='d-flex justify-content-end my-4 py-4'>
@@ -23,25 +23,54 @@ const MainSection = () => {
             <img src={card} className='img-fluid py-4 mt-4' alt='Card' />
           </div>
           <div className='col-sm-12 col-md-8 py-4 my-4 '>
-            <div className='row justify-content-end py-4'>
+            <div className='row justify-content-end pt-4'>
               <div className='col-sm-12 text-center text-md-end'>
-                <h4>CREATORS SHAPE CULTURE.</h4>
+                <h6 className='fw-bold text-primary'>
+                  CREATORS SHAPE CULTURE.
+                </h6>
               </div>
-              <div className='col-sm-12 text-center text-md-end py-2'>
+              <div className='col-sm-12 text-center text-md-end py-2 pt-1 fw-bold'>
                 <h1>
                   2 in 3 twitter users agree that creators change and shape
                   culture
                 </h1>
               </div>
-              <div className='col-sm-12 tags text-center text-md-end pb-4'>
+              <div className='col-sm-12 tags text-center text-md-end pb-4 '>
                 <div>
-                  <span>#HiArmy</span> <span>#overdays</span>
+                  <span
+                    className='badge rounded-pill px-4 py-2 my-2 mx-2 text-dark'
+                    style={{ backgroundColor: "#FFDCE5" }}
+                  >
+                    #HiArmy
+                  </span>{" "}
+                  <span
+                    className='badge rounded-pill px-4 py-2 my-2 mx-2 text-dark'
+                    style={{ backgroundColor: "#D1F7C4" }}
+                  >
+                    #overdays
+                  </span>
                 </div>
                 <div>
-                  <span>#teamtrees</span> <span>#BTS</span>
+                  <span
+                    className='badge rounded-pill px-4 py-2 my-2 mx-2 text-dark'
+                    style={{ backgroundColor: "#FEE2D5" }}
+                  >
+                    #teamtrees
+                  </span>{" "}
+                  <span
+                    className='badge rounded-pill px-4 py-2 m-2 text-dark'
+                    style={{ backgroundColor: "#72DDC3" }}
+                  >
+                    #BTS
+                  </span>
                 </div>
                 <div>
-                  <span>#boatarmy</span>
+                  <span
+                    className='badge rounded-pill px-4 py-2 m-2 text-dark'
+                    style={{ backgroundColor: "#9CC7FF" }}
+                  >
+                    #boatarmy
+                  </span>
                 </div>
               </div>
             </div>
@@ -50,7 +79,10 @@ const MainSection = () => {
       </div>
       <div className='container-fluid my-4 py-4'>
         <div className='heading px-4'>
-          <h1 className='text-center md-px-4 py-4 mt-4 md-mx-4'>
+          <h1
+            className='text-center md-px-4 py-4 mt-4 md-mx-4'
+            style={{ color: "#2256BA" }}
+          >
             With #TweetsFromHome, express your love for your favourite creator.
           </h1>
         </div>
@@ -82,7 +114,7 @@ const MainSection = () => {
           <div className='button col-sm-12 d-flex justify-content-center mx-auto'>
             <button
               type='button'
-              class='btn btn-primary rounded-pill px-3 mt-1 pt-2 pb-2 '
+              class='btn btn-primary rounded-pill px-3 mt-1 pt-2 pb-2 text-light fw-bold'
             >
               Sign in to continue
             </button>
